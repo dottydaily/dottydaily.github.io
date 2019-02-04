@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit|Open+Sans');
+
+body {
+    min-width: 600px;
+    max-width: 1000px;
+    padding: 0px 150px 0px 150px;
+    background-color: black;
+    background-image: url("../resources/night-lights-wallpapers-25265-7985302.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.95;
+}
+#pagelayout {
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+#header {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+#intro-paragraph {
+    text-align: center;
+}
+.paragraph {
+    padding-left: 40px;
+    font-family: 'Kanit' , sans-serif;
+}
+.image {
+    padding: 10px;
+}
+h1, h2, h3, h4{
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+}
+h2 {
+    color: rgb(0, 95, 29);
+}
+h3 {
+    color: rgb(78, 0, 151);
+    text-decoration: underline;
+}
+h4 {
+    color: brown;
+}
+#highlight {
+    padding-left: 4px;
+    background-color: black;
+    color: white;
+    width: 50px;
+}
+#footer-credit {
+    padding-top: 40px;
+    font-family: 'Open sans', sans-serif;
+    text-align: right;
+    font-weight: bold;
+}
