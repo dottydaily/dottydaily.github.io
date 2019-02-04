@@ -1,6 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit|Open+Sans');
 
-body {
+@media screen and (min-width: 600px) {
+    body {
+        min-width: 600px;
+        max-width: 1000px;
+        padding: 0px 150px 0px 150px;
+        background-color: black;
+        background-image: url("../resources/night-lights-wallpapers-25265-7985302.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        opacity: 0.95;
+    }
+    .paragraph {
+        padding-left: 40px;
+        font-family: 'Kanit' , sans-serif;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        min-width: 100px;
+        max-width: 745px;
+        padding: 0px 10px 0px 10px;
+        background-color: black;
+        background-image: url("../resources/night-lights-wallpapers-25265-7985302.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        opacity: 0.95;
+    }
+    .paragraph {
+        padding-left: 20px;
+        font-family: 'Kanit' , sans-serif;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        min-width: 100px;
+        max-width: 450px;
+        padding: 0px 10px 0px 10px;
+        background-color: black;
+        background-image: url("../resources/night-lights-wallpapers-25265-7985302.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        opacity: 0.95;
+    }
+    .paragraph {
+        padding-left: 10px;
+        font-family: 'Kanit' , sans-serif;
+    }
+}
+/* body {
     min-width: 600px;
     max-width: 1000px;
     padding: 0px 150px 0px 150px;
@@ -9,7 +57,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: 0.95;
-}
+} */
 #pagelayout {
     padding: 10px 10px 10px 10px;
     background-color: white;
@@ -21,10 +69,10 @@ body {
 #intro-paragraph {
     text-align: center;
 }
-.paragraph {
+/* .paragraph {
     padding-left: 40px;
     font-family: 'Kanit' , sans-serif;
-}
+} */
 .image {
     padding: 10px;
 }
