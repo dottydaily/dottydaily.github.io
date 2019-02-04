@@ -1,6 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans|Anton|Ubuntu');
 
-body {
+@media screen and (min-width: 600px) {
+    body {
+        min-width: 600px;
+        max-width: 1000px;
+        padding: 0px 150px 0px 150px;
+        background-color: black;
+        background-image: url("../resources/bg-csszengarden.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-attachment: fixed;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        min-width: 100px;
+        max-width: 745px;
+        padding: 0px 10px 0px 10px;
+        background-color: black;
+        background-image: url("../resources/bg-csszengarden.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-attachment: fixed;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        min-width: 100px;
+        max-width: 450px;
+        padding: 0px 10px 0px 10px;
+        background-color: black;
+        background-image: url("../resources/bg-csszengarden.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-attachment: fixed;
+    }
+}
+/* body {
     min-width: 600px;
     max-width: 1000px;
     padding: 0px 150px 0px 150px;
@@ -9,7 +45,7 @@ body {
     background-repeat: no-repeat;
     background-position-x: center;
     background-attachment: fixed;
-}
+} */
 header[role=banner] {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
