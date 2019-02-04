@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans|Anton|Ubuntu');
+
+body {
+    padding: 0px 150px 0px 150px;
+    background-color: black;
+    background-image: url("../resources/bg-csszengarden.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+header[role=banner] {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    background-color: rgb(0, 0, 215);
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+.page-wrapper {
+    /* padding: 5px;
+    margin: 0px 5px 0px 5px; */
+    background-color: rgb(71, 71, 71);
+    opacity: 0.95;
+}
+div[role=article] {
+    font-family: 'PT Sans', sans-serif;
+}
+div[role=article] p {
+    padding: 0px 10px 0px 40px;
+}
+.summary#zen-summary {
+    padding: 10px 10px 10px 0px;
+    background-color: black;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+a[href] {
+    /* color: rgb(0, 0, 215); */
+    color: rgb(199, 199, 199);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;  
+}
+.preamble#zen-preamble {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(245, 0, 0);
+}
+.explanation#zen-explanation {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(245, 0, 0);
+}
+.explanation#zen-explanation h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.participation#zen-participation {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(0, 160, 0);
+}
+.benefits#zen-benefits {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(0, 160, 0);
+}
+.benefits#zen-benefits h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.requirements#zen-requirements {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(160, 0, 80);
+}
+abbr/*[title="Cascading Style Sheets"]*/ {
+    /* color: white;     */
+    /* font-style: italic; */
+    font-family: 'Anton', sans-serif;
+}
+.main footer {
+    padding: 10px 10px 50px 10px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+.design-selection {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 217, 0);
+}
+.design-selection h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.design-selection a {
+    color: rgb(0, 100, 0);
+}
+.design-archives {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(0, 221, 173);
+}
+.design-archives h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.design-archives a {
+    color: rgb(100, 1, 75);
+}
+.zen-resources {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 96, 229);
+}
+.zen-resources h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.zen-resources a {
+    color: rgb(16, 1, 100);
+}
+.zen-resources > abbr {
+    font-weight: normal;
+}
